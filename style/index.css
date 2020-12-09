@@ -23,11 +23,26 @@ time, mark, audio, video {
     flex-flow: column nowrap;
 }
 
-h1 {
-    font-size: 30px;
-    color: red;
+.headerflex {
+    border: 1px solid black;
 }
 
-.headerflex {
-    border: 5px solid black;
+.navbuttons {
+    border: 1px solid red;
+}
+
+.textonpic {
+    border: 1px solid blue;
+}
+
+.contentflex {
+    border: 1px solid purple;
+}
+
+.contentimg {
+    border: 1px solid green;
+}
+
+.footflex {
+    border: 1px solid yellow;
 }
