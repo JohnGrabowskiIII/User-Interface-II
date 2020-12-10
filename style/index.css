@@ -142,6 +142,46 @@ aboutsection {
     transform: rotate(180deg);
 }
 
+.contactcard {
+    position: relative;
+    margin: 0% auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+.contactcard img {
+    display: inline;
+    transform: rotate(180deg);
+}
+
+.contacttext {
+    position: absolute;
+    border: 1px solid red;
+    top: 25%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    height: auto;
+}
+
+.contacttext h1 {
+    padding-bottom: 75%;
+}
+
+.contacttext:hover {
+    opacity: 1;
+    background: red;
+}
+
+.contacttext h1 {
+    text-align: center;
+}
+
+.contacttext p {
+    text-align: center;
+    color: white;
+}
+
 .foot {
     width: fit-content;
     height: fit-content;
