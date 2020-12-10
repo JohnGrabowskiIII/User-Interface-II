@@ -45,10 +45,22 @@ body {
 }
 
 .textonpic {
-    border: 1px solid blue;
-    width: 375px;
-    position: relative;
-    bottom: 100px;
+    width: 255px;
+    position: absolute;
+    bottom: 200px;
+    left: 40px;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+    margin: 2%;
+}
+
+.textonpic a {
+    text-decoration: none;
+    color: white;
+    margin: 2%;
 }
 
 .contentflex {
