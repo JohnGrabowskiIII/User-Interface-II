@@ -26,13 +26,32 @@ body {
 }
 
 .headerflex {
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.headerflex p {
+    text-align: center;
+    font-size: 1.25em;
+    color: purple;
+    margin: 0% 1%;
 }
 
 .navbuttons {
-    border: 1px solid red;
+    width: fit-content;
+    height: fit-content;
+}
+
+.navbuttons a {
+    padding: 1em;
+    color: white;
+    background: purple;
+    border-radius: 50%;
+}
+
+.navbuttons .selected {
+    background: green;
 }
 
 .titlecard {
