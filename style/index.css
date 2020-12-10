@@ -19,11 +19,6 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-.masterflex {
-    flex-flow: column nowrap;
-    align-items: center;
-}
-
 .headerflex {
     border: 1px solid black;
     display: flex;
@@ -47,6 +42,8 @@ time, mark, audio, video {
 .textonpic {
     border: 1px solid blue;
     width: 375px;
+    position: relative;
+    bottom: 100px;
 }
 
 .contentflex {
