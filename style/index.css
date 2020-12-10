@@ -146,7 +146,7 @@ aboutsection {
     position: relative;
     margin: 0% auto;
     width: fit-content;
-    height: fit-content;
+    height: 100%;
 }
 
 .contactcard img {
@@ -156,7 +156,7 @@ aboutsection {
 
 .contacttext {
     position: absolute;
-    top: 25%;
+    top: 10%;
     left: 0;
     right: 0;
     opacity: 0;
