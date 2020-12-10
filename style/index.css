@@ -102,6 +102,15 @@ h1 {
     height: 100%;
 }
 
-.footflex {
-    border: 1px solid yellow;
+.foot {
+    width: fit-content;
+    height: fit-content;
+    margin: 2% auto;
+}
+
+.foot a {
+    padding: 1em;
+    color: white;
+    background: purple;
+    border-radius: 50%;
 }
