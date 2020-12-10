@@ -35,6 +35,7 @@ h1, p, a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 1% 0%;
 }
 
 .headerflex p {
@@ -117,21 +118,22 @@ h1 {
 aboutsection {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .aboutleft {
-    border: 1px solid red;
     width: 42%;
     height: auto;
-    margin: 2% 5%;
+    margin: 2% 2%;
+    text-align: right;
+    line-height: 2;
+    color: white;
 }
 
 .aboutright {
-    border: 1px solid yellow;
     width: auto;
     height: auto;
-    margin: 2% 5%;
+    margin: 2% 2%;
 }
 
 .aboutright img {
