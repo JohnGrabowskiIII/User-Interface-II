@@ -156,7 +156,6 @@ aboutsection {
 
 .contacttext {
     position: absolute;
-    border: 1px solid red;
     top: 25%;
     left: 0;
     right: 0;
@@ -168,9 +167,14 @@ aboutsection {
     padding-bottom: 75%;
 }
 
+.contacttext p {
+    font-size: 2em;
+}
+
 .contacttext:hover {
-    opacity: 1;
-    background: red;
+    opacity: 0.75;
+    background: purple;
+    transition: 0.5s;
 }
 
 .contacttext h1 {

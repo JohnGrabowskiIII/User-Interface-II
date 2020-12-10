@@ -26,18 +26,18 @@ Follow these steps to set up and work on your project:
 - [1] Create a forked copy of this project.
 - [1] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [1] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [1] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [1] Push commits: git push origin `<firstName-lastName>`.
  
 ### Task 2: Minimum Viable Product
 
 Once your repository is set up, practice what you learned today to create a portfolio site from the wireframe of your choosing. **You may choose any of the three wireframes in the "Wireframe Options" folder above.** Your complete project should look similar to the wireframe you chose, and include all of the following elements:
 
-- [ ]  A navigation bar with `About`, `Projects`, and `Contact` that link to the corresponding pages
+- [1]  A navigation bar with `About`, `Projects`, and `Contact` that link to the corresponding pages
 - [1]  Gallery of projects created with flexbox - you may use random images in place of project screenshots for now with the random image link: https://picsum.photos/ or you may use images that mean something to you
-- [ ]  Information about you in place of the given placeholder
-- [ ]  A `My Projects` button that links to the projects page
-- [ ]  A `Contact Me` button that links to the contact page
+- [1]  Information about you in place of the given placeholder
+- [1]  A `My Projects` button that links to the projects page
+- [1]  A `Contact Me` button that links to the contact page
 - [1]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
 
 ### Task 3: Stretch Goals
