@@ -114,6 +114,32 @@ h1 {
     color: purple;
 }
 
+aboutsection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutleft {
+    border: 1px solid red;
+    width: 42%;
+    height: auto;
+    margin: 2% 5%;
+}
+
+.aboutright {
+    border: 1px solid yellow;
+    width: auto;
+    height: auto;
+    margin: 2% 5%;
+}
+
+.aboutright img {
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+}
+
 .foot {
     width: fit-content;
     height: fit-content;
