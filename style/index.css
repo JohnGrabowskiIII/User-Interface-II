@@ -67,12 +67,10 @@ h1, p, a {
 }
 
 .titlecard {
-    /* position: relative; */
-    /* left: auto; */
-    /* right: auto; */
-    /* width: fit-content; */
-    /* height: auto; */
-    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
 }
 
 .titlecard img {
@@ -80,12 +78,12 @@ h1, p, a {
     height: auto;
 }
 
-.textonpic {
+/* .textonpic { */
     /* width: 255px; */
     /* position: absolute; */
     /* bottom: 200px; */
     /* left: 40px; */
-}
+/* } */
 
 h1 {
     color: white;
@@ -207,4 +205,16 @@ aboutsection {
     background: purple;
     border-radius: 50%;
     text-decoration: none;
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+    .titlecard {
+        border: 1px solid red;
+    }
+}
+
+@media (max-width: 500px) {
+    .titlecard {
+        border: 1px solid red;
+    }
 }
