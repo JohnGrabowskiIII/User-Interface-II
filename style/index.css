@@ -25,6 +25,9 @@ body {
     background-image: url('../pictures/background.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1, p, a {
@@ -36,11 +39,12 @@ h1, p, a {
     justify-content: space-between;
     align-items: center;
     margin: 1% 0%;
+    width: 100vw;
 }
 
 .headerflex p {
     text-align: center;
-    font-size: 1.25em;
+    font-size: 1.25rem;
     color: purple;
     margin: 0% 1%;
 }
@@ -63,11 +67,11 @@ h1, p, a {
 }
 
 .titlecard {
-    position: relative;
-    left: auto;
-    right: auto;
-    width: fit-content;
-    height: auto;
+    /* position: relative; */
+    /* left: auto; */
+    /* right: auto; */
+    /* width: fit-content; */
+    /* height: auto; */
     margin: 2% auto;
 }
 
@@ -77,15 +81,15 @@ h1, p, a {
 }
 
 .textonpic {
-    width: 255px;
-    position: absolute;
-    bottom: 200px;
-    left: 40px;
+    /* width: 255px; */
+    /* position: absolute; */
+    /* bottom: 200px; */
+    /* left: 40px; */
 }
 
 h1 {
     color: white;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     margin: 2%;
 }
 
@@ -173,7 +177,7 @@ aboutsection {
 }
 
 .contacttext p {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .contacttext:hover {
