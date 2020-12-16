@@ -23,8 +23,8 @@ time, mark, audio, video {
 
 body {
     background-image: url('../pictures/background.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-repeat: repeat-y;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +44,7 @@ h1, p, a {
 
 .headerflex p {
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.5vw;
     color: purple;
     margin: 0% 1%;
 }
@@ -60,6 +60,7 @@ h1, p, a {
     background: purple;
     border-radius: 50%;
     text-decoration: none;
+    font-size: 1.5vw;
 }
 
 .navbuttons .selected {
@@ -87,7 +88,7 @@ h1, p, a {
 
 h1 {
     color: white;
-    font-size: 2.5rem;
+    font-size: 5.25vw;
     margin: 2%;
 }
 
@@ -95,6 +96,7 @@ h1 {
     text-decoration: none;
     color: white;
     margin: 2%;
+    font-size: 2.8vw;
 }
 
 .contentflex {
@@ -120,6 +122,7 @@ h1 {
 .contentimg p {
     text-align: center;
     color: purple;
+    font-size: 1.5vw;
 }
 
 aboutsection {
@@ -175,7 +178,7 @@ aboutsection {
 }
 
 .contacttext p {
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 .contacttext:hover {
@@ -205,6 +208,7 @@ aboutsection {
     background: purple;
     border-radius: 50%;
     text-decoration: none;
+    font-size: 1.5vw;
 }
 
 @media (min-width: 501px) and (max-width: 800px) {
