@@ -71,6 +71,11 @@ h1, p, a {
     margin: 2% auto;
 }
 
+.titlecard img {
+    width: 60vw;
+    height: auto;
+}
+
 .textonpic {
     width: 255px;
     position: absolute;
