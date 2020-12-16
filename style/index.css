@@ -79,12 +79,12 @@ h1, p, a {
     height: auto;
 }
 
-/* .textonpic { */
-    /* width: 255px; */
-    /* position: absolute; */
-    /* bottom: 200px; */
-    /* left: 40px; */
-/* } */
+.textonpic {
+    width: 255px;
+    position: absolute;
+    top: 10vw;
+    left: 20vw;
+}
 
 h1 {
     color: white;
